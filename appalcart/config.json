@@ -28,5 +28,10 @@
     "enableFavorites": true,
     "enableNotifications": false
   },
+  "gtfs_rt": {
+    "vehicle_positions": "https://rt.transitkit.app/appalcart/vehicle-positions.pb",
+    "trip_updates": "https://rt.transitkit.app/appalcart/trip-updates.pb",
+    "alerts": "https://rt.transitkit.app/appalcart/alerts.pb"
+  },
   "operators": [{ "id": "appalcart", "name": "AppalCart" }]
 }
